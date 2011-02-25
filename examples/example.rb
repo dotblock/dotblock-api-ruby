@@ -19,16 +19,16 @@ api.server_list
 api.server_info(123456)
 
 # Boot server 123456
-api.boot(123456)
+api.boot_server(123456)
 
 # Reboot server 123456
-api.reboot(123456)
+api.reboot_server(123456)
 
 # Suspend server 123456
-api.suspend(123456)
+api.suspend_server(123456)
 
 # Resume server 123456
-api.resume(123456)
+api.resume_server(123456)
 
 # Shutdown server 123456
-api.shutdown(123456)
+api.shutdown_server(123456)

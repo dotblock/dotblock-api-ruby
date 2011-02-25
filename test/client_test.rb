@@ -39,7 +39,7 @@ class DotBlockAPIClientTest < Test::Unit::TestCase
       end
 
       should "boot a server" do
-        assert @api.reboot_server(@serverid)['response'] == 'success'
+        assert @api.boot_server(@serverid)['response'] == 'success'
       end
 
       should "suspend a server" do
